@@ -1,0 +1,15 @@
+$c1: #0B3142;
+$c2: #66101F;
+$c3: #755C1B;
+$c4: #7B6D8D;
+
+@mixin switchContainer() {
+    display: flex;
+    justify-content: space-around;
+
+    p {
+        label {
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "starterkit-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mpecheux/rangen-loremipsum": "^0.1.1",
+    "axios": "^0.26.0",
+    "bcryptjs": "^2.4.3",
+    "hamburger-react": "^2.5.0",
+    "handlebars-lorem-ipsum": "^1.0.0",
+    "mipsum": "^2.4.3",
+    "moment": "^2.29.1",
+    "mongodb": "^4.2.2",
+    "next": "12.1.0",
+    "next-auth": "^3.29.0",
+    "react": "17.0.2",
+    "react-burger-menu": "^3.0.8",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.27.1",
+    "react-loader-spinner": "^4.0.0",
+    "react-toastify": "^8.2.0",
+    "sass": "^1.49.9",
+    "speech-code": "^1.4.0",
+    "sweetalert2": "^11.4.4"
+  },
+  "devDependencies": {
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0"
+  }
+}

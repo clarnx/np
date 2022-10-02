@@ -1,0 +1,27 @@
+@import '../../../styles/scss/variables.scss';
+
+.loaderbg {
+    height: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #F7F7FC;
+    z-index: 999;
+
+    .loader {
+        position: absolute;
+        width: 30%;
+        background: $c2;
+        height: 100%;
+        animation: move 1.2s infinite;
+    }
+}
+
+@keyframes move {
+    50% {
+        transform: translate(240%);
+    }
+    to {
+        transform: translate(0%);
+    }
+}

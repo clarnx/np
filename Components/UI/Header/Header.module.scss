@@ -1,0 +1,84 @@
+@import '../../../styles/scss/variables.scss';
+
+.Header {
+    background: #F6F7FC;
+    width: 250px;
+    height: 100vh;
+    border-right: 2px solid $c1;
+    position: fixed;
+    top: 0;
+    z-index: 997;
+
+    .plus {
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        width: 100%;
+
+        small {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+
+            img {
+                height: 20px;
+            }
+        }
+    }
+
+    ul {
+        list-style: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        margin: 20px;
+
+        .active{
+            // background-color: darken($c4, 12%);
+            box-shadow: $c4 0px 0px 4px 1px;
+            background: #fff;
+        }
+
+        li {
+
+            padding: 5px;
+            margin: 10px 5px;
+            border-radius: 5px;
+            text-align: center;
+            transition: .2s;
+            cursor: pointer;
+            color: #000;
+            font-size: 18px;
+            // background: $c4;
+            background: #F6F7FC;
+
+            
+            &:hover{    
+                // transform: scale(1.1);
+                box-shadow: $c1 0px 0px 4px 1px;
+            }
+        }
+    }
+}
+
+.hamburger {
+    display: none;
+    z-index: 998;
+    position: fixed;
+}
+
+@media (max-width: 785px) {
+    .Header {
+        margin-left: -250px;
+    }
+
+    .showHeader {
+        margin-left: 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
