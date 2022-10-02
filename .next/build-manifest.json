@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/id-generator.js"
-    ],
-    "/password-generator": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/password-generator.js"
     ]
   },
   "ampFirstPages": []
