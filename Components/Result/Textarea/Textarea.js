@@ -9,8 +9,8 @@ const Result = () => {
         <div className={classes.resultContainer}>
             <label>Résultat</label>
             <div>
-                <textarea id='result' />
-                <CopyButton right="40px" />
+                <textarea style={{ marginLeft: '68px' }} id='result' />
+                <CopyButton right="45px" />
             </div>
         </div>
     );

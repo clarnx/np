@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Links from '../Components/Links/Links'
 
 export default function Home() {
-  return (
 
+  return (
     <>
       <Head>
         <title>Nice Pencil</title>

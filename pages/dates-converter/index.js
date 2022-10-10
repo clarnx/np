@@ -47,7 +47,7 @@ const idGenerator = () => {
                 <Block>
                     <form onSubmit={handleSubmit(submittedClickedHandler)}>
                         <p>
-                            <input {...register('type')} value='datetotimestamp' type='radio' id="datetotimestamp" name='type' checked />
+                            <input {...register('type')} value='datetotimestamp' type='radio' id="datetotimestamp" name='type' />
                             <label style={{ cursor: 'pointer', marginLeft: '-90px' }} htmlFor='datetotimestamp'>Date vers Timestamp</label>
                         </p>
                         <p>

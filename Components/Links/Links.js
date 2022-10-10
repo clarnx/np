@@ -39,7 +39,7 @@ const Links = () => {
         {
             link: routes.unitsConverter,
             text: "Convertisseur d'unités",
-            des: "Choisissez le type d'unités à convertir et le tour joué ! Il ne vous reste plus qu'à choisir quel sont vos unités et entrer une valeur.",
+            des: "Choisissez le l'unité à convertir et celle voulue et le tour est joué !",
             icon: "https://cdn-icons-png.flaticon.com/128/4667/4667080.png"
         },
         {
