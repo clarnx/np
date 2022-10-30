@@ -53,7 +53,6 @@ const idGenerator = () => {
         result_input.value = result
     }
 
-
     return (
         <>
             <Head>
